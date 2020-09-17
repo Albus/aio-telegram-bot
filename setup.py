@@ -57,6 +57,6 @@ setup(
     keywords=["aio", "async", "asyncio", "telegram", "bot"],
     packages=["aiotelegrambot"],
     provides=["aiotelegrambot"],
-    python_requires=">=3.5.3",
-    install_requires=["aiohttp==3.5.4", "aiojobs==0.2.2"],
+    python_requires=">=3.8",
+    install_requires=["aiohttp>=3.5.4", "aiojobs>=0.2.2"],
 )
